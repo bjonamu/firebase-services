@@ -1,0 +1,27 @@
+{
+  "name": "firebase-services",
+  "version": "0.1.0",
+  "description": "A wrapper for firebase some already implemented functionality for your app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjonamu/firebase-services.git"
+  },
+  "keywords": [
+    "Firebase",
+    "Services"
+  ],
+  "author": "Blessing Jonamu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjonamu/firebase-services/issues"
+  },
+  "homepage": "https://github.com/bjonamu/firebase-services#readme",
+  "dependencies": {
+    "firebase": "^4.12.0",
+    "uuid": "^3.2.1"
+  }
+}
