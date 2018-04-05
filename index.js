@@ -10,6 +10,7 @@ export default function (config) {
     storage,
     sagaChannel,
     user: user(firebaseApp),
-    db: database(firebaseApp)
+    db: database(firebaseApp),
+    firestore: firebaseApp.firestore()
   }
 }
