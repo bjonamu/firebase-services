@@ -1,4 +1,10 @@
 import * as firebase from 'firebase'
+// Required for side-effects
+// https://stackoverflow.com/a/48092919
+import 'firebase/auth'
+import 'firebase/database'
+import 'firebase/firestore'
+
 import sagaChannel from './lib/sagaChannel'
 import database from './lib/database'
 import storage from './lib/storage'
@@ -11,6 +17,6 @@ export default function (config) {
     sagaChannel,
     user: user(firebaseApp),
     db: database(firebaseApp),
-    firestore: firebaseApp.firestore()
+    fs: firebase.firestore()
   }
 }
