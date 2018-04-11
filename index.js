@@ -1,8 +1,6 @@
 import * as firebase from 'firebase'
 // Required for side-effects
 // https://stackoverflow.com/a/48092919
-import 'firebase/auth'
-import 'firebase/database'
 import 'firebase/firestore'
 
 import database from './lib/database'
